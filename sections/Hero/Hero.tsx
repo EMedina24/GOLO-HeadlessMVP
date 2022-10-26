@@ -13,7 +13,7 @@ interface Props {
 
 const Hero: FC<Props> = ({ headline, description, ctaLink, ctaText }) => {
   return (
-    <div className="bg-black">
+    <div className="bg-red">
       <Container>
         <div className={s.root}>
           <h2 className="text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
